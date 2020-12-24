@@ -22,7 +22,7 @@ client.on('message', (msg) => {
   if (msg.content.startsWith(`${p}ping`)) {
     msg.channel.send(`lmao ok boi`);
   } else if (msg.content.startsWith(`${p}help`)) {
-    msg.channel.send(`List of commands: https://github.com/nguyenhuyblyat/blob/main/README.md`);
+    msg.channel.send(`List of commands: https://github.com/nguyenhuyblyat/neohope`);
   } else if (msg.content.startsWith(`${p}insult`)) {
       msg.channel.send(insults[(Math.floor(Math.random() * insults.length))]);
   }
