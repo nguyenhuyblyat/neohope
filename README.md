@@ -21,9 +21,9 @@
   - $joke - random dad jokes
 
 # Languages:
-  - Javascript
   - Node.js
 
 # Libraries:
   - discord.js
   - opus
+  - dotenv

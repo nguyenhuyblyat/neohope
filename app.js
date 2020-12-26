@@ -9,7 +9,7 @@ require('dotenv').config();
 const client = new Discord.Client();
 
 client.once('ready', () => {
-  console.log("NeoHope is now up!");
+  console.log(`Logged in as ${client.user.tag}`);
 });
 
 p = process.env.prefix;
